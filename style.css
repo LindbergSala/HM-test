@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(bilder/background.png);
+    background-size: cover;
+}
+
+#game-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#hangman-svg svg {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+#guess-input {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#guess-button {
+    margin-top: 10px;
+    padding: 5px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.hidden {
+    display: none;
+}
